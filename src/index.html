@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design Mirror</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <style>
+        html, body {
+            margin: 0;
+            height: 100%;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <script>
+        // 修复mac下点击事件没有反馈的问题
+        // https://bleepcoder.com/react-spectrum/667291182/click-events-don-t-work-on-macos-in-adobe-cep-extension
+        delete window.PointerEvent;
+    </script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>

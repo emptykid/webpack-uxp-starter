@@ -1,0 +1,101 @@
+{
+  "manifestVersion": 4,
+  "name": "webpack-uxp-panel",
+  "version": "1.0.0",
+  "host": {
+    "app": "PS",
+    "minVersion": "23.0.0"
+  },
+  "main": "index.html",
+  "entrypoints": [
+    {
+      "id": "webpack-uxp-panel",
+      "label": {
+        "default": "webpack uxp panel"
+      },
+      "type": "panel",
+      "minimumSize": {
+        "width": 320,
+        "height": 320
+      },
+      "maximumSize": {
+        "width": 1000,
+        "height": 1000
+      },
+      "preferredDockedSize": {
+        "width": 320,
+        "height": 570
+      },
+      "preferredFloatingSize": {
+        "width": 320,
+        "height": 570
+      },
+      "icons": [
+        {
+          "path": "icons/panel_icon_dark.png",
+          "width": 23,
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "darkest",
+            "dark",
+            "medium"
+          ],
+          "height": 23
+        },
+        {
+          "path": "icons/panel_icon_light.png",
+          "width": 23,
+          "scale": [
+            1,
+            2
+          ],
+          "theme": [
+            "lightest",
+            "light"
+          ],
+          "height": 23
+        }
+      ]
+    }
+  ],
+  "id": "a1b2c3d4",
+  "icons": [
+    {
+      "path": "icons/panel_icon_dark.png",
+      "width": 23,
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "darkest",
+        "dark",
+        "medium"
+      ],
+      "height": 23
+    },
+    {
+      "path": "icons/panel_icon_light.png",
+      "width": 23,
+      "scale": [
+        1,
+        2
+      ],
+      "theme": [
+        "lightest",
+        "light"
+      ],
+      "height": 23
+    }
+  ],
+  "requiredPermissions": {
+    "clipboard": "readAndWrite",
+    "network": {
+      "domains": "all"
+    },
+    "allowCodeGenerationFromStrings": true
+  }
+}
