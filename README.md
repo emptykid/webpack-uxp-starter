@@ -14,7 +14,7 @@ yarn watch
 yarn build
 ```
 
-if you want to use Vite instead of Webpack, see this project [webpack-uxp-starter](https://github.com/emptykid/webpack-uxp-starter)
+if you want to use Vite instead of Webpack, see this project [vite-uxp-starter](https://github.com/emptykid/vite-uxp-starter)
 
 ## License
 
